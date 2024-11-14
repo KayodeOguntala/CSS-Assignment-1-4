@@ -54,8 +54,6 @@ h1 {
 }
 
 .main-background {
-  /*width: 100%;
-  max-width: 100%;*/
   background-color: #666666;
   margin: 0;
   padding: 0;
@@ -123,7 +121,7 @@ h1 {
 @media (max-width: 768px) {
   .main-header {
     margin: 5% 5%;
-    max-width: 90%; /* Ensure the header takes up a little less space for better alignment */
+    max-width: 90%; 
   }
 
   h1 {
@@ -137,7 +135,7 @@ h1 {
   .wealth-message,
   .description,
   .closing-message {
-    font-size: 18px; /* Adjust font size for readability on tablet */
+    font-size: 18px; 
     text-align: left;
     padding-left: 2%;
     margin: 1%;
@@ -146,19 +144,19 @@ h1 {
   .card {
     max-width: 100%;
     margin: 5% 2%;
-    padding: 0 2%; /* Add some internal padding to the card */
+    padding: 0 2%; 
   }
 
   .banner {
-    width: 100%; /* Banner takes full width */
-    padding: 10px; /* Padding for spacing */
+    width: 100%; 
+    padding: 10px; 
     margin-left: 0;
     text-align: left;
   }
 
   .banner-image {
     width: 100%;
-    height: auto; /* Ensure the banner image is responsive */
+    height: auto; 
   }
 
   .wealth-message {
